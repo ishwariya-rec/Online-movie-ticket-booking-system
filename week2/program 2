@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Record - Animation</title>
+    <style>
+        /* Body styling */
+        body {
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Card container */
+        .card {
+            width: 450px;
+            padding: 25px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0px 0px 15px rgba(0,0,0,0.2);
+            animation: slideIn 2s ease;
+        }
+
+        /* Title with glow animation */
+        h2 {
+            text-align: center;
+            color: darkblue;
+            animation: glowText 2s infinite alternate;
+        }
+
+        /* Table styling */
+        table {
+            width: 100%;
+            margin-top: 15px;
+            border-collapse: collapse;
+        }
+
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+
+        .label {
+            font-weight: bold;
+            background: #e0e0ff;
+            width: 40%;
+        }
+
+        /* Keyframe Animations */
+        @keyframes slideIn {
+            from {
+                transform: translateY(-60px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes glowText {
+            from {
+                color: darkblue;
+                text-shadow: 0 0 5px skyblue;
+            }
+            to {
+                color: red;
+                text-shadow: 0 0 10px orange;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>Student Record</h2>
+        <table>
+            <tr>
+                <td class="label">Student Name</td>
+                <td>Rahul Sharma</td>
+            </tr>
+            <tr>
+                <td class="label">Roll Number</td>
+                <td>CS101</td>
+            </tr>
+            <tr>
+                <td class="label">Course</td>
+                <td>B.Tech CSE</td>
+            </tr>
+            <tr>
+                <td class="label">Semester</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td class="label">Email</td>
+                <td>rahul@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="label">Phone</td>
+                <td>9876543210</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
