@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Movie Ticket Booking</title>
+</head>
+<body>
+
+<h1>Online Movie Ticket Booking Form</h1>
+
+<form action="confirmation.html" method="POST" id="bookingForm">
+
+<!-- Customer Name -->
+Name:
+<input type="text" name="customer_name" placeholder="Enter your name" required>
+<br><br>
+
+<!-- Email -->
+Email:
+<input type="email" name="email" placeholder="Enter your email" required>
+<br><br>
+
+<!-- Movie Selection -->
+
+Select Movie:
+<select name="movie" required>
+<option value="">--Select Movie--</option>
+<option value="Leo">Leo</option>
+<option value="Jailer">Jailer</option>
+<option value="Vikram">Vikram</option>
+<option value="Avengers">Avengers</option>
+</select>
+<br><br>
+
+<!-- Show Time -->
+Show Time:
+<input type="radio" name="show_time" value="Morning" required> Morning
+<input type="radio" name="show_time" value="Afternoon"> Afternoon
+<input type="radio" name="show_time" value="Evening"> Evening
+<br><br>
+
+<!-- Number of Tickets -->
+Number of Tickets:
+<input type="number" name="tickets" min="1" max="10" required>
+<br><br>
+
+<!-- Address -->
+Address:
+<br>
+<textarea name="address" rows="4" cols="40" placeholder="Enter your address"
+required></textarea>
+<br><br>
+
+<!-- Buttons -->
+<input type="submit" value="Book Ticket">
+<input type="reset" value="Clear">
+
+</form>
+
+</body>
+</html>
