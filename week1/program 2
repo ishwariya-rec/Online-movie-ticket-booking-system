@@ -1,0 +1,217 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Movie Ticket Booking - Home</title>
+</head>
+<frameset rows="20%,80%">
+<!-- Header Frame -->
+<frame src="header.html" name="headerFrame">
+<frameset cols="25%,75%">
+<!-- Navigation Frame -->
+<frame src="nav.html" name="navFrame">
+<!-- Content Frame -->
+<frame src="login.html" name="contentFrame">
+</frameset>
+
+</frameset>
+</html>
+
+login.html
+
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Login Page</h2>
+<form>
+Username:<br>
+<input type="text" name="username"><br><br>
+Password:<br>
+<input type="password" name="password"><br><br>
+<input type="submit" value="Login">
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
+
+header.html
+
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightblue">
+<center>
+<h1>🎬 ONLINE MOVIE TICKET BOOKING SYSTEM</h1>
+<h3>Book Your Favourite Movies Online</h3>
+</center>
+</body>
+</html>
+
+nav.html
+<!DOCTYPE html>
+<html>
+<body bgcolor="lightgray">
+
+<h3>Navigation</h3>
+<ul>
+<li><a href="login.html" target="contentFrame">Login</a></li>
+<li><a href="catalogue.html" target="contentFrame">Movie
+Catalogue</a></li>
+<li><a href="register.html"
+target="contentFrame">Registration</a></li>
+</ul>
+</body>
+</html>
+
+register.html
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Registration Page</h2>
+<form>
+Name:<br>
+<input type="text" name="name"><br><br>
+Email:<br>
+<input type="email" name="email"><br><br>
+Password:<br>
+<input type="password" name="password"><br><br>
+Gender:<br>
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female<br><br>
+Phone Number:<br>
+<input type="text" name="phone"><br><br>
+<input type="submit" value="Register">
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
+
+
+catalogue.html
+<!DOCTYPE html>
+<html>
+<body>
+<h2>Movie Catalogue</h2>
+<table border="1" cellpadding="8">
+<tr>
+<th>Movie Name</th>
+<th>Show Time</th>
+<th>Category</th>
+<th>Ticket Price</th>
+</tr>
+<tr>
+<td>Avengers: Endgame</td>
+<td>10:00 AM</td>
+<td>Action</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Inception</td>
+<td>1:00 PM</td>
+<td>Sci-Fi</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Interstellar</td>
+<td>4:00 PM</td>
+<td>Sci-Fi</td>
+<td>$15</td>
+</tr>
+<tr>
+<td>The Dark Knight</td>
+<td>7:00 PM</td>
+<td>Action</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Spider-Man: No Way Home</td>
+<td>9:30 PM</td>
+<td>Adventure</td>
+
+<td>$14</td>
+</tr>
+</table>
+</body>
+</html>
+
+program 3:
+
+booking.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book Tickets</title>
+</head>
+<body>
+
+<h2>Book Your Ticket</h2>
+
+<form>
+Name: <input type="text" required><br><br>
+
+Select Movie:
+<select>
+<option>Movie 1</option>
+<option>Movie 2</option>
+<option>Movie 3</option>
+</select>
+<br><br>
+
+Number of Tickets:
+<input type="number" min="1" max="10">
+<br><br>
+
+<button type="submit">Book Now</button>
+</form>
+
+</body>
+</html>
+
+movies.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Now Showing</title>
+</head>
+<body>
+
+<h2>Now Showing</h2>
+
+<img src="movie1.jpg" width="200" height="300" alt="Movie 1 Poster">
+<img src="movie2.jpg" width="200" height="300" alt="Movie 2 Poster">
+
+<img src="movie3.jpg" width="200" height="300" alt="Movie 3 Poster">
+
+</body>
+</html>
+
+
+index.html
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Movie Ticket Booking</title>
+</head>
+<body>
+
+<h1>Online Movie Ticket Booking System</h1>
+
+<!-- Navigation Links -->
+<a href="movies.html" target="contentFrame">View Movies</a> |
+<a href="booking.html" target="contentFrame">Book Tickets</a>
+
+<br><br>
+
+<!-- Iframe to Load Pages -->
+<iframe name="contentFrame" width="800" height="400" frameborder="1">
+</iframe>
+
+</body>
+</html>
+
+
+
+
+
