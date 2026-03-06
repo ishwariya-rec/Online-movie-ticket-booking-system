@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online Movie Ticket Booking System</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f4f4f4;
+margin: 20px;
+}
+h1 {
+color: darkred;
+}
+table {
+border-collapse: collapse;
+width: 70%;
+background-color: white;
+}
+table, th, td {
+border: 1px solid black;
+padding: 8px;
+text-align: center;
+}
+th {
+background-color: #333;
+color: white;
+}
+</style>
+</head>
+<body>
+<h1>🎬 Online Movie Ticket Booking System</h1>
+<h2>Available Movies</h2>
+<ul>
+<li>Avengers: Endgame</li>
+<li>Inception</li>
+<li>Interstellar</li>
+<li>The Dark Knight</li>
+<li>Spider-Man: No Way Home</li>
+</ul>
+<h2>Steps to Book a Ticket</h2>
+<ol>
+<li>Create or Login to your account</li>
+<li>Select your preferred movie</li>
+<li>Choose date and show time</li>
+<li>Select seats</li>
+<li>Make payment</li>
+<li>Receive booking confirmation</li>
+</ol>
+<h2>Show Timings and Ticket Prices</h2>
+<table>
+<tr>
+<th>Movie Name</th>
+<th>Show Time</th>
+<th>Ticket Price</th>
+</tr>
+<tr>
+<td>Avengers: Endgame</td>
+<td>10:00 AM</td>
+<td>$10</td>
+</tr>
+<tr>
+<td>Inception</td>
+<td>1:00 PM</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Interstellar</td>
+<td>4:00 PM</td>
+<td>$15</td>
+</tr>
+<tr>
+<td>The Dark Knight</td>
+<td>7:00 PM</td>
+<td>$12</td>
+</tr>
+<tr>
+<td>Spider-Man: No Way Home</td>
+<td>9:30 PM</td>
+<td>$14</td>
+</tr>
+</table>
+</body>
